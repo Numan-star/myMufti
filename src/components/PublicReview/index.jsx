@@ -1,13 +1,13 @@
-import { tw } from "twind"
-import Button from "@/components/button"
+import { tw } from 'twind';
+import Button from '@/components/button';
 
 const PublicReviewSection = () => {
   const publicReviewData = {
-    title: "Get Public review on your query",
+    title: 'Get Public review on your query',
     description:
-      "Join live Q&A sessions, ask your questions, post your question by selecting your Fiqa and question category and get feedback from everyone.",
-    image: "/images/review-screen.png",
-  }
+      'Join live Q&A sessions, ask your questions, post your question by selecting your Fiqa and question category and get feedback from everyone.',
+    image: '/images/review-screen.png',
+  };
 
   return (
     <section className={tw(`py-20 bg-white`)}>
@@ -16,9 +16,9 @@ const PublicReviewSection = () => {
           {/* Left Column - Image */}
           <div className={tw(`flex justify-center`)}>
             <img
-              src={"/images/iPhone15.svg"}
+              src={'/images/iPhone15.svg   '}
               alt="Public Review"
-              className={tw(`w-full max-w-[300px] h-auto object-contain drop-shadow-xl transform -rotate-6`)}
+              className={tw(`w-full max-w-[300px]  h-auto object-contain drop-shadow-xl transform -rotate-6`)}
             />
           </div>
 
@@ -47,8 +47,7 @@ const PublicReviewSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PublicReviewSection
-
+export default PublicReviewSection;
